@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "amanita",
+  "version": "${version}",
+  "name": "Amanita",
+  "description": "An assortment of toggleable client-side tweaks",
+  "authors": [
+    "Fruitloopins"
+  ],
+  "contact": {
+    "homepage": "https://fwloopins.com",
+    "sources": "https://github.com/Fruitloopins/Amanita",
+    "issues": "https://github.com/Fruitloopins/Amanita/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/amanita/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fwloopins.amanita.client.AmanitaClient"
+    ],
+    "modmenu": [
+      "com.fwloopins.amanita.client.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "amanita.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Discord": "https://discord.gg/ey6ZvnwAJp",
+        "Donate": "https://github.com/sponsors/Fruitloopins"
+      }
+    }
+  }
+}

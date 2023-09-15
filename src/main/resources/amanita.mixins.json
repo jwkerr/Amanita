@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.fwloopins.amanita.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "clientbrand.ClientBrandRetrieverMixin",
+    "nullmovement.KeyboardInputMixin",
+    "spectatorcrosshair.GameRendererMixin",
+    "spectatorcrosshair.InGameHudMixin",
+    "truexp.InGameHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
