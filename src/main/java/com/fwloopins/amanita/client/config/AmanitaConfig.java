@@ -20,6 +20,8 @@ public class AmanitaConfig implements ConfigData {
         @ConfigEntry.Gui.Tooltip
         public String clientBrand = "";
         @ConfigEntry.Gui.Tooltip
+        public boolean fullBlueZAxis = false;
+        @ConfigEntry.Gui.Tooltip
         public boolean nullMovement = false;
         @ConfigEntry.Gui.Tooltip
         public boolean spectatorCrosshair = false;

@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "client": [
     "clientbrand.ClientBrandRetrieverMixin",
+    "fullbluezaxis.GLXMixin",
     "nullmovement.KeyboardInputMixin",
     "spectatorcrosshair.GameRendererMixin",
     "spectatorcrosshair.InGameHudMixin",
