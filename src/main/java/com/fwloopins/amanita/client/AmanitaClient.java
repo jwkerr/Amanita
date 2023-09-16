@@ -1,6 +1,7 @@
 package com.fwloopins.amanita.client;
 
 import com.fwloopins.amanita.client.config.AmanitaConfig;
+import com.fwloopins.amanita.client.config.ConfigScreen;
 import com.fwloopins.amanita.client.cosmetics.particles.ClientParticles;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
@@ -15,17 +16,23 @@ public class AmanitaClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        AutoConfig.register(AmanitaConfig.class, GsonConfigSerializer::new);
-        config = AutoConfig.getConfigHolder(AmanitaConfig.class).getConfig();
-
+        init();
         tick();
 
         logInfo("Amanita initialised");
     }
 
+    private void init() {
+        AutoConfig.register(AmanitaConfig.class, GsonConfigSerializer::new);
+        config = AutoConfig.getConfigHolder(AmanitaConfig.class).getConfig();
+
+        ConfigScreen.createConfigKeybind();
+    }
+
     private void tick() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             ClientParticles.clientParticlesTick(client);
+            ConfigScreen.configScreenTick(client);
         });
     }
 

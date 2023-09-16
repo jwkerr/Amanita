@@ -1,4 +1,7 @@
 {
+  "category.Amanita": "Amanita",
+  "key.Amanita.config": "Open Config",
+
   "text.autoconfig.Amanita.title": "Amanita Config",
 
   "text.autoconfig.Amanita.category.General": "General",
