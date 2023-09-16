@@ -33,6 +33,9 @@ public class AmanitaConfig implements ConfigData {
         @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
         public Particles particles = new Particles();
 
+        @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
+        public FlipModels flipModels = new FlipModels();
+
         public static class Particles {
             @ConfigEntry.Gui.Tooltip
             public boolean isEnabled = false;
@@ -42,6 +45,15 @@ public class AmanitaConfig implements ConfigData {
             @ConfigEntry.Gui.Tooltip
             @ConfigEntry.Gui.EnumHandler(option = ConfigEntry.Gui.EnumHandler.EnumDisplayOption.DROPDOWN)
             public ParticleStyles particleStyle = ParticleStyles.TRAIL;
+        }
+
+        public static class FlipModels {
+            @ConfigEntry.Gui.Tooltip
+            public boolean flipSelf = false;
+            @ConfigEntry.Gui.Tooltip
+            public boolean flipOthers = false;
+            @ConfigEntry.Gui.Tooltip
+            public boolean flipMobs = false;
         }
     }
 }

@@ -27,5 +27,13 @@
   "text.autoconfig.Amanita.option.cosmetics.particles.particleEffect": "Particle Effect",
   "text.autoconfig.Amanita.option.cosmetics.particles.particleEffect.@Tooltip": "Select the particle effect that will be used for particle styles",
   "text.autoconfig.Amanita.option.cosmetics.particles.particleStyle": "Particle Style",
-  "text.autoconfig.Amanita.option.cosmetics.particles.particleStyle.@Tooltip": "Select the particle style that will appear around the player"
+  "text.autoconfig.Amanita.option.cosmetics.particles.particleStyle.@Tooltip": "Select the particle style that will appear around the player",
+
+  "text.autoconfig.Amanita.option.cosmetics.flipModels": "Flip Models",
+  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipSelf": "Flip Self",
+  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipSelf.@Tooltip": "Set to true to flip your own player's model",
+  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipOthers": "Flip Others",
+  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipOthers.@Tooltip": "Set to true to flip the model of other players",
+  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipMobs": "Flip Mobs",
+  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipMobs.@Tooltip": "Set to true to flip the model of all mobs"
 }

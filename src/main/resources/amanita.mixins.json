@@ -9,7 +9,8 @@
     "nullmovement.KeyboardInputMixin",
     "spectatorcrosshair.GameRendererMixin",
     "spectatorcrosshair.InGameHudMixin",
-    "truexp.InGameHudMixin"
+    "truexp.InGameHudMixin",
+    "flipmodels.LivingEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
