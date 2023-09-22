@@ -4,12 +4,7 @@
   "package": "com.fwloopins.amanita.client.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "clientbrand.ClientBrandRetrieverMixin",
     "fullbluezaxis.GLXMixin",
-    "nullmovement.KeyboardInputMixin",
-    "spectatorcrosshair.GameRendererMixin",
-    "spectatorcrosshair.InGameHudMixin",
-    "truexp.InGameHudMixin",
     "flipmodels.LivingEntityRendererMixin"
   ],
   "injectors": {

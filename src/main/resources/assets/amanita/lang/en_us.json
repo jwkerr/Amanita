@@ -4,22 +4,6 @@
 
   "text.autoconfig.Amanita.title": "Amanita Config",
 
-  "text.autoconfig.Amanita.category.General": "General",
-  "text.autoconfig.Amanita.option.general.clientBrand": "Client Brand",
-  "text.autoconfig.Amanita.option.general.clientBrand.@Tooltip": "The string written here will be used as your client brand when connecting to Minecraft servers, if nothing is written it will not change",
-
-  "text.autoconfig.Amanita.option.general.fullBlueZAxis": "Full Blue Z Axis",
-  "text.autoconfig.Amanita.option.general.fullBlueZAxis.@Tooltip": "Set to true for the Z axis in the debug menu (F3) to display as completely blue like the other axes rather than a washed out blue",
-
-  "text.autoconfig.Amanita.option.general.nullMovement": "Null Movement",
-  "text.autoconfig.Amanita.option.general.nullMovement.@Tooltip": "Set to true to disable the movement blocking that occurs when holding two movement keys at the same time",
-
-  "text.autoconfig.Amanita.option.general.spectatorCrosshair": "Spectator Crosshair",
-  "text.autoconfig.Amanita.option.general.spectatorCrosshair.@Tooltip": "Set to true to keep your crosshair and currently selected block outline visible when in spectator mode",
-
-  "text.autoconfig.Amanita.option.general.trueXP": "TrueXP",
-  "text.autoconfig.Amanita.option.general.trueXP.@Tooltip": "Set to true to display your total experience before being converted to a level in brackets beside your level",
-
   "text.autoconfig.Amanita.category.Cosmetics": "Cosmetics",
   "text.autoconfig.Amanita.option.cosmetics.particles": "Particles",
   "text.autoconfig.Amanita.option.cosmetics.particles.isEnabled": "Enabled",
@@ -35,5 +19,9 @@
   "text.autoconfig.Amanita.option.cosmetics.flipModels.flipOthers": "Flip Others",
   "text.autoconfig.Amanita.option.cosmetics.flipModels.flipOthers.@Tooltip": "Set to true to flip the model of other players",
   "text.autoconfig.Amanita.option.cosmetics.flipModels.flipMobs": "Flip Mobs",
-  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipMobs.@Tooltip": "Set to true to flip the model of all mobs"
+  "text.autoconfig.Amanita.option.cosmetics.flipModels.flipMobs.@Tooltip": "Set to true to flip the model of all mobs",
+
+  "text.autoconfig.Amanita.option.cosmetics.tweaks": "Tweaks",
+  "text.autoconfig.Amanita.option.cosmetics.tweaks.fullBlueZAxis": "Full Blue Z Axis",
+  "text.autoconfig.Amanita.option.cosmetics.tweaks.fullBlueZAxis.@Tooltip": "Set to true for the Z axis in the debug menu (F3) to display as completely blue like the other axes rather than a washed out blue"
 }

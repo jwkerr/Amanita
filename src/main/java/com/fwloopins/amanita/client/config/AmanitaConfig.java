@@ -8,33 +8,17 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
 @Config(name = "Amanita")
 public class AmanitaConfig implements ConfigData {
-    @ConfigEntry.Category("General")
-    @ConfigEntry.Gui.TransitiveObject
-    public General general = new General();
-
     @ConfigEntry.Category("Cosmetics")
     @ConfigEntry.Gui.TransitiveObject
     public Cosmetics cosmetics = new Cosmetics();
 
-    public static class General {
-        @ConfigEntry.Gui.Tooltip
-        public String clientBrand = "";
-        @ConfigEntry.Gui.Tooltip
-        public boolean fullBlueZAxis = false;
-        @ConfigEntry.Gui.Tooltip
-        public boolean nullMovement = false;
-        @ConfigEntry.Gui.Tooltip
-        public boolean spectatorCrosshair = false;
-        @ConfigEntry.Gui.Tooltip
-        public boolean trueXP = false;
-    }
-
     public static class Cosmetics {
         @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
         public Particles particles = new Particles();
-
         @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
         public FlipModels flipModels = new FlipModels();
+        @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
+        public Tweaks tweaks = new Tweaks();
 
         public static class Particles {
             @ConfigEntry.Gui.Tooltip
@@ -54,6 +38,11 @@ public class AmanitaConfig implements ConfigData {
             public boolean flipOthers = false;
             @ConfigEntry.Gui.Tooltip
             public boolean flipMobs = false;
+        }
+
+        public static class Tweaks {
+            @ConfigEntry.Gui.Tooltip
+            public boolean fullBlueZAxis = false;
         }
     }
 }

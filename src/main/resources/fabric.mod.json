@@ -3,7 +3,7 @@
   "id": "amanita",
   "version": "${version}",
   "name": "Amanita",
-  "description": "An assortment of toggleable client-side tweaks",
+  "description": "Client-sided Fabric mod that adds cosmetic tweaks",
   "authors": [
     "Fruitloopins"
   ],
