@@ -21,6 +21,12 @@
   "text.autoconfig.Amanita.option.cosmetics.flipModels.flipMobs": "Flip Mobs",
   "text.autoconfig.Amanita.option.cosmetics.flipModels.flipMobs.@Tooltip": "Set to true to flip the model of all mobs",
 
+  "text.autoconfig.Amanita.option.cosmetics.alterStars": "Alter Stars",
+  "text.autoconfig.Amanita.option.cosmetics.alterStars.seed": "Seed",
+  "text.autoconfig.Amanita.option.cosmetics.alterStars.seed.@Tooltip": "Modify the seed used to generate stars in the sky, in vanilla this is the same regardless of world",
+  "text.autoconfig.Amanita.option.cosmetics.alterStars.maxStars": "Max Stars",
+  "text.autoconfig.Amanita.option.cosmetics.alterStars.maxStars.@Tooltip": "Modify the maximum number of stars in the sky",
+
   "text.autoconfig.Amanita.option.cosmetics.tweaks": "Tweaks",
   "text.autoconfig.Amanita.option.cosmetics.tweaks.fullBlueZAxis": "Full Blue Z Axis",
   "text.autoconfig.Amanita.option.cosmetics.tweaks.fullBlueZAxis.@Tooltip": "Set to true for the Z axis in the debug menu (F3) to display as completely blue like the other axes rather than a washed out blue"

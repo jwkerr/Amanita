@@ -4,8 +4,9 @@
   "package": "com.fwloopins.amanita.client.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "fullbluezaxis.GLXMixin",
-    "flipmodels.LivingEntityRendererMixin"
+    "alterstars.WorldRendererMixin",
+    "flipmodels.LivingEntityRendererMixin",
+    "fullbluezaxis.GLXMixin"
   ],
   "injectors": {
     "defaultRequire": 1

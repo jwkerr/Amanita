@@ -18,6 +18,8 @@ public class AmanitaConfig implements ConfigData {
         @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
         public FlipModels flipModels = new FlipModels();
         @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
+        public AlterStars alterStars = new AlterStars();
+        @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
         public Tweaks tweaks = new Tweaks();
 
         public static class Particles {
@@ -38,6 +40,13 @@ public class AmanitaConfig implements ConfigData {
             public boolean flipOthers = false;
             @ConfigEntry.Gui.Tooltip
             public boolean flipMobs = false;
+        }
+
+        public static class AlterStars {
+            @ConfigEntry.Gui.Tooltip
+            public long seed = 10842L;
+            @ConfigEntry.Gui.Tooltip
+            public int maxStars = 1500;
         }
 
         public static class Tweaks {
