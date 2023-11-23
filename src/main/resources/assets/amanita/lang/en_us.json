@@ -29,5 +29,7 @@
 
   "text.autoconfig.Amanita.option.cosmetics.tweaks": "Tweaks",
   "text.autoconfig.Amanita.option.cosmetics.tweaks.fullBlueZAxis": "Full Blue Z Axis",
-  "text.autoconfig.Amanita.option.cosmetics.tweaks.fullBlueZAxis.@Tooltip": "Set to true for the Z axis in the debug menu (F3) to display as completely blue like the other axes rather than a washed out blue"
+  "text.autoconfig.Amanita.option.cosmetics.tweaks.fullBlueZAxis.@Tooltip": "Set to true for the Z axis in the debug menu (F3) to display as completely blue like the other axes rather than a washed out blue",
+  "text.autoconfig.Amanita.option.cosmetics.tweaks.bobberRemoval": "Bobber Removal",
+  "text.autoconfig.Amanita.option.cosmetics.tweaks.bobberRemoval.@Tooltip": "Set to true to remove fishing bobbers that are in your head obstructing your view"
 }
