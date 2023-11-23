@@ -1,4 +1,4 @@
-package com.fwloopins.amanita.client.cosmetics.particles.styles;
+package com.fwloopins.amanita.client.cosmetic.particles.style;
 
 import com.fwloopins.amanita.client.config.AmanitaConfig;
 import net.minecraft.client.MinecraftClient;

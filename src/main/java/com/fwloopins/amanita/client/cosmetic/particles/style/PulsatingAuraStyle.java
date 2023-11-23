@@ -1,7 +1,7 @@
-package com.fwloopins.amanita.client.cosmetics.particles.styles;
+package com.fwloopins.amanita.client.cosmetic.particles.style;
 
 import com.fwloopins.amanita.client.config.AmanitaConfig;
-import com.fwloopins.amanita.client.cosmetics.particles.ParticlesUtil;
+import com.fwloopins.amanita.client.cosmetic.particles.ParticlesUtil;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.Vec3d;
 

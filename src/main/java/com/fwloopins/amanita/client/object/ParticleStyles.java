@@ -1,4 +1,4 @@
-package com.fwloopins.amanita.client.cosmetics.particles.objects;
+package com.fwloopins.amanita.client.object;
 
 import org.jetbrains.annotations.NotNull;
 

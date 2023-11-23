@@ -1,4 +1,4 @@
-package com.fwloopins.amanita.client.cosmetics.particles;
+package com.fwloopins.amanita.client.cosmetic.particles;
 
 import net.minecraft.util.math.Vec3d;
 
@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ParticlesUtil {
+
     public static List<Vec3d> createCoordinateCircleFromVec3d(Vec3d pos, int numPoints, double radius, double offputY) {
         List<Vec3d> coordinates = new ArrayList<>();
 

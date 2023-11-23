@@ -1,13 +1,14 @@
-package com.fwloopins.amanita.client.cosmetics.particles.styles;
+package com.fwloopins.amanita.client.cosmetic.particles.style;
 
 import com.fwloopins.amanita.client.config.AmanitaConfig;
-import com.fwloopins.amanita.client.cosmetics.particles.ParticlesUtil;
+import com.fwloopins.amanita.client.cosmetic.particles.ParticlesUtil;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.Vec3d;
 
 import java.util.List;
 
 public class AuraStyle {
+
     public static void create(MinecraftClient client, AmanitaConfig.Cosmetics.Particles particlesConfig) {
         if (client.world != null && client.player != null) {
             if (!client.isPaused()) {

@@ -1,7 +1,7 @@
 package com.fwloopins.amanita.client.config;
 
-import com.fwloopins.amanita.client.cosmetics.particles.objects.ParticleEffects;
-import com.fwloopins.amanita.client.cosmetics.particles.objects.ParticleStyles;
+import com.fwloopins.amanita.client.object.ParticleEffects;
+import com.fwloopins.amanita.client.object.ParticleStyles;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
@@ -52,6 +52,8 @@ public class AmanitaConfig implements ConfigData {
         public static class Tweaks {
             @ConfigEntry.Gui.Tooltip
             public boolean fullBlueZAxis = false;
+            @ConfigEntry.Gui.Tooltip
+            public boolean bobberRemoval = false;
         }
     }
 }

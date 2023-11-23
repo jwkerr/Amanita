@@ -3,7 +3,11 @@ plugins {
     id 'maven-publish'
 }
 
-version = project.mod_version
+def gitVersion() {
+    return 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
+}
+
+version = gitVersion()
 group = project.maven_group
 
 repositories {
@@ -67,7 +71,7 @@ java {
     if (JavaVersion.current() < javaVersion) {
         toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
     }
-    archivesBaseName = project.archives_base_name + "-${project.minecraft_version}"
+    archivesBaseName = project.archivesBaseName + "-" + project.minecraft_version
     // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
     // if it is present.
     // If you remove this line, sources will not be generated.

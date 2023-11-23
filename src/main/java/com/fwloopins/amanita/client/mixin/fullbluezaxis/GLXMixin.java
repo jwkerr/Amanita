@@ -8,11 +8,11 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 
 @Mixin(GLX.class)
 public class GLXMixin {
+
     @ModifyConstant(method = "_renderCrosshair", constant = @Constant(intValue = 127))
     private static int modifyZAxisColour(int value) {
-        if (AmanitaClient.getConfig().cosmetics.tweaks.fullBlueZAxis) {
+        if (AmanitaClient.getConfig().cosmetics.tweaks.fullBlueZAxis)
             return 0;
-        }
 
         return value;
     }

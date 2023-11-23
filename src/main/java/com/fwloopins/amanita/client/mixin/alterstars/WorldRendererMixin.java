@@ -8,6 +8,7 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 
 @Mixin(WorldRenderer.class)
 public class WorldRendererMixin {
+
     @ModifyConstant(method = "renderStars(Lnet/minecraft/client/render/BufferBuilder;)Lnet/minecraft/client/render/BufferBuilder$BuiltBuffer;", constant = @Constant(longValue = 10842L))
     private long alterStarSeed(long seed) {
         return AmanitaClient.getConfig().cosmetics.alterStars.seed;

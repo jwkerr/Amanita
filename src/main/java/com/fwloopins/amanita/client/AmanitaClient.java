@@ -2,7 +2,8 @@ package com.fwloopins.amanita.client;
 
 import com.fwloopins.amanita.client.config.AmanitaConfig;
 import com.fwloopins.amanita.client.config.ConfigScreen;
-import com.fwloopins.amanita.client.cosmetics.particles.ClientParticles;
+import com.fwloopins.amanita.client.tweak.bobberremoval.BobberRemoval;
+import com.fwloopins.amanita.client.cosmetic.particles.ClientParticles;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
@@ -33,6 +34,7 @@ public class AmanitaClient implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             ClientParticles.clientParticlesTick(client);
             ConfigScreen.configScreenTick(client);
+            BobberRemoval.bobberRemovalTick(client);
         });
     }
 
